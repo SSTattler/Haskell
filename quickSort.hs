@@ -2,7 +2,7 @@ import Test.QuickCheck
 import Data.List
 
 
---
+-- QQQQQQQ
 -- quickSort 
 --
 quickSort :: (Ord a) => [a] -> [a]
