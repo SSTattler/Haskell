@@ -26,7 +26,8 @@ prop_ordered xs    = ordered (quickSort xs)
                               ordered (x:y:xs) = x <= y && ordered (y:xs)
 
 prop_permutation xs = permutation xs (quickSort xs)
-   where permutation xs ys = null (xs \\ ys) && null (ys \\ xs)
+   where 
+      permutation xs ys = null (xs \\ ys) && null (ys \\ xs)
 
 prop_append xs ys = 
    not (null xs) ==> 
