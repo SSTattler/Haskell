@@ -13,7 +13,7 @@ quickSort (x:rest) =
 
 --OR:
 --    quickSort [ls | ls <- rest, ls < x] ++ x : quickSort [ge | ge <- rest, ge >= x]
- 
+--
 
 prop_idempotent xs = quickSort (quickSort xs) == quickSort xs
 
