@@ -64,3 +64,5 @@ test = do
          verboseCheck (prop_sort_model :: [Integer] -> Bool)
          -- Now Ord - it does not work the type is failed - it is ambiguous
          -- quickCheck (prop_idempotent  :: [ord] -> Bool)
+
+main = test
