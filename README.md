@@ -1,2 +1,2 @@
-# Haskell
-Try it using Haskell.
+# Hello
+Try it using Hello.
